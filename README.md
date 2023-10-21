@@ -2,7 +2,7 @@
 ## ESP32-H2 Zigbee device
 
 Suite à l'exellente vidéo de [gammatroniques](https://beta.gammatroniques.fr/projects/esp32h2-zigbee) présentant le module ESP32-H2 pour un usage en *device* Zigbee, 
-j'ai voulu regrouper les information receuillis sur ce modul ainsi que de sonutlisation avec Zigbee2MQTT.
+j'ai voulu regrouper les information receuillis sur ce module ainsi que de son utlisation avec **Zigbee2MQTT**.
 
 Les tests ont été réalisé sur le module **ESP32-H2-DevKitM-1**
 
@@ -10,7 +10,7 @@ Les tests ont été réalisé sur le module **ESP32-H2-DevKitM-1**
 
 ### Description
 
-![](./images/Carte_ESP32-H2-DevKitM-1.jpg)
+![](./images/Carte_ESP32-H2-DevKitM-1.jpg){width="400px"}
 
 * [Schéma](./images/esp32-h2-devkitm-1_v1.2_schematics_20230306.pdf)
 
