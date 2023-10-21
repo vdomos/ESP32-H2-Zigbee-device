@@ -54,7 +54,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
 
 ### Pinout
 
-![](./images/Esp32-h2-dev-kit_pinout.png")
+![](./images/Esp32-h2-dev-kit_pinout.png)
 
 <br>
 
@@ -231,7 +231,7 @@ Si le code change complétement, il faudra effacer la flash du module
 Dans vcode avec le dossier projet ouvert, aller dans le terminal de vscode
 
 ```
-dan@ceres:ESP32H2-Zigbee-Demo$ idf.py -p /dev/ttyUSB0 erase-flash
+$ idf.py -p /dev/ttyUSB0 erase-flash
 ...
 Serial port /dev/ttyUSB0
 Connecting....
@@ -256,7 +256,6 @@ Il est possible d'exécuter la commande **idf.py** en dehors de **vscode**
 
 `/home/dan/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/dan/.local/esp/esp-idf/tools/idf.py`
 
-\
 
 #### Zigbee2MQTT
 
@@ -266,7 +265,7 @@ Avec le code <https://github.com/xmow49/ESP32H2-Zigbee-Demo> flashé sur l'**ESP
 comme device **0x4831b7fffec06c3b** "Non pris en charge"
 
 Ce programme *Demo* expose la **température** et l'**humidité** d'un *DHT22*, l'état d'un input de GPIO avec **poussoir** et une sortie relié à une **LED** (voir photo montage sur *breadboard*). 
-Les paramètres **ManufacturerName**, **ModelIdentifier**, **DateCode** ont été changés dans le code et des log ont été rajotées pour suivre le fonctionnement (*I (xxxxx) DEMO: Domos: ...*)
+Les paramètres **ManufacturerName**, **ModelIdentifier**, **DateCode** ont été changés dans le code et des log ont été rajoutées pour suivre le fonctionnement (*I (xxxxx) DEMO: Domos: ...*)
 
 ![](./images/Zigbee2MQTT_1_ESP32-H2_1.png)
 
@@ -320,7 +319,7 @@ const definition = {
 module.exports = definition;
 ```
 
-Il faut ajouter cette ligne dans **zigbee2mqtt-data/configuration.yaml** pour prise en compte
+Il faut ajouter cette ligne dans **zigbee2mqtt-data/configuration.yaml** pour prise en compte et redémarrer **zigbee2mqtt**
 
 ```yaml
 advanced:
