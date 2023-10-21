@@ -292,7 +292,7 @@ zigbee2mqtt    | Zigbee2MQTT:debug 2023-10-20 16:43:20: No converter available f
 ```
 
 
-Ajout du fichier **zigbee2mqtt-data/esp32-h2_1.js** (en m'inspirant des sources concernant les **devices/converters** existants sur <https://github.com/Koenkk/zigbee-herdsman-converters/tree/master/src>)
+Ajout du fichier **zigbee2mqtt-data/esp32-h2_1.js** (*external converter file*) (en m'inspirant des sources concernant les **devices/converters** existants sur <https://github.com/Koenkk/zigbee-herdsman-converters/tree/master/src>)
 
 ```js
 // https://github.com/Koenkk/zigbee-herdsman-converters/blob/master
@@ -326,6 +326,6 @@ external_converters:
   - esp32-h2_1.js
 ```
 
-Senseurs et actionneurs exposés et convertits dans l'interface **Zigbee2MQTT** avec prise en compte du fichier: 
+Senseurs et actionneurs exposés et convertits dans l'interface **Zigbee2MQTT** aprés la prise en compte du fichier: 
 
 ![](./images/Zigbee2MQTT_1_ESP32-H2_2.png)
