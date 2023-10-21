@@ -4,7 +4,7 @@
 Suite à l'exellente vidéo de [gammatroniques](https://beta.gammatroniques.fr/projects/esp32h2-zigbee) présentant le module ESP32-H2 pour un usage en *device* Zigbee, 
 j'ai voulu regrouper les information recueillis sur ce module ainsi que de son utlisation avec **Zigbee2MQTT**.
 
-Les tests ont été réalisé sur le module **ESP32-H2-DevKitM-1**
+Les tests ont été réalisés sur le module **ESP32-H2-DevKitM-1**
 
 <br>
 
@@ -65,7 +65,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
     - Code
       - <https://github.com/xmow49/ESP32H2-Zigbee-Demo>
       - <https://github.com/xmow49/ESP32H2-SmokeDetector>
-    - Shema
+    - Shema gammatronique
       - <https://api.gammatroniques.fr/uploads/projects/clm14zy211910701p6fwz96xbc/clm17af0t1938001p6452z3v8w.pdf>
     - <https://zigbeealliance.org/wp-content/uploads/2019/12/07-5123-06-zigbee-cluster-library-specification.pdf>
     - <https://csa-iot.org/wp-content/uploads/2022/01/docs-05-3474-22-0csg-zigbee-specification-1.pdf>
@@ -114,12 +114,10 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
 
 Voir dans **~/.local/esp/esp-idf/examples/zigbee/** d'autres exemples de codes de tests Zigbee.
 
-\
 
 
 * Sortie console série
 
-Version code connecté à la PiZigate sur RPiB3
 
 ```
 ESP-ROM:esp32h2-20221101
@@ -282,7 +280,6 @@ info 2023-10-16 17:37:42  Read result of 'msRelativeHumidity': {"measuredValue":
 
 ![](./images/Zigbee2MQTT_1_ESP32-H2_3.png)
 
-\
 
 Il faut suivre la procédure sur la page [Support new devices](https://www.zigbee2mqtt.io/advanced/support-new-devices/01_support_new_devices.html) du site <https://www.zigbee2mqtt.io> pour que le device soit reconnu
 

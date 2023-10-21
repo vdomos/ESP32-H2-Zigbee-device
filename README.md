@@ -103,7 +103,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
   - Installer extension Espressif IDF
   - Choisir le répertoire de travail avec l'exemple **smoke_detector**
   - La fenetre ESP-DF setup Setup apparrait
-  - Choisir mode d'install **advanced**, **branch master (dev branch)**, changer répertoire d'install **/home/dan/.local/esp**
+  - Choisir mode d'install **advanced**, **branch master (dev branch)**, changer répertoire d'install **/home/<user>/.local/esp**
   - Install (ignorer erreur concernant les tools)
   - Download tools
   - Message "All settings have been configured"
@@ -118,7 +118,6 @@ Voir dans **~/.local/esp/esp-idf/examples/zigbee/** d'autres exemples de codes d
 
 * Sortie console série
 
-Version code connecté à la PiZigate sur RPiB3
 
 ```
 ESP-ROM:esp32h2-20221101
@@ -225,7 +224,7 @@ I (408837) DEMO: Hum: 77.0 Tmp: 22.4
 
 * **eraser la flash**
 
-Si le code change complétement, il faudra effacer la flash du module
+Si le code change complétement, il faudra effacer la flash du module et supprimer le device de **Zigbee2MQTT**
 
 Dans vcode avec le dossier projet ouvert, aller dans le terminal de vscode
 
@@ -253,7 +252,7 @@ Done
 
 Il est possible d'exécuter la commande **idf.py** en dehors de **vscode**
 
-`/home/dan/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/dan/.local/esp/esp-idf/tools/idf.py`
+`/home/<user>/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/<user>/.local/esp/esp-idf/tools/idf.py`
 
 
 #### Zigbee2MQTT
