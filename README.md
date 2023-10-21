@@ -65,7 +65,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
     - Code
       - <https://github.com/xmow49/ESP32H2-Zigbee-Demo>
       - <https://github.com/xmow49/ESP32H2-SmokeDetector>
-    - Shema gammatronique
+    - Shema gammatroniques
       - <https://api.gammatroniques.fr/uploads/projects/clm14zy211910701p6fwz96xbc/clm17af0t1938001p6452z3v8w.pdf>
     - <https://zigbeealliance.org/wp-content/uploads/2019/12/07-5123-06-zigbee-cluster-library-specification.pdf>
     - <https://csa-iot.org/wp-content/uploads/2022/01/docs-05-3474-22-0csg-zigbee-specification-1.pdf>
@@ -86,6 +86,8 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
 ### Programmation
 
 #### VsCode
+
+![](./images/VScode_ESP32-H2_1.png)
 
 * Installer **vscode** sous Debian
 
