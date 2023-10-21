@@ -87,7 +87,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
 
 #### VsCode
 
-* Installer **vscode**
+* Installer **vscode** sous Debian
 
 ```Bash
   apt update

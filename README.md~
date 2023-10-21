@@ -257,13 +257,12 @@ Il est possible d'exécuter la commande **idf.py** en dehors de **vscode**
 
 #### Zigbee2MQTT
 
-Testé sur Zigbee2MQTT installé sur Raspberry-Pi 3B avec *coordinator* **PiZigate**
+Testé sur Zigbee2MQTT installé sur Raspberry-Pi 3B avec *coordinator* **PiZigate** avec le code <https://github.com/xmow49/ESP32H2-Zigbee-Demo> flashé sur l'**ESP32-H2**, 
 
-Avec le code <https://github.com/xmow49/ESP32H2-Zigbee-Demo> flashé sur l'**ESP32-H2**, le device apparait dans **Zigbee2MQTT**
-comme device **0x4831b7fffec06c3b** "Non pris en charge"
+Ce programme expose la **température** et l'**humidité** d'un *DHT22*, l'état d'un input de GPIO avec **poussoir** et une sortie relié à une **LED**. 
+Les paramètres **ManufacturerName**, **ModelIdentifier**, **DateCode** ont été changés dans le code et des logs ont été rajoutées pour suivre le fonctionnement (*I (xxxxx) DEMO: Domos: ...*)
 
-Ce programme *Demo* expose la **température** et l'**humidité** d'un *DHT22*, l'état d'un input de GPIO avec **poussoir** et une sortie relié à une **LED**. 
-Les paramètres **ManufacturerName**, **ModelIdentifier**, **DateCode** ont été changés dans le code et des log ont été rajoutées pour suivre le fonctionnement (*I (xxxxx) DEMO: Domos: ...*)
+Aprés l'appairage qui se fait au *boot* du module, le device apparait dans **Zigbee2MQTT** comme device **0x4831b7fffec06c3b** "Non pris en charge"
 
 ![](./images/Zigbee2MQTT_1_ESP32-H2_1.png)
 
