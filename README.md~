@@ -103,7 +103,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
   - Installer extension Espressif IDF
   - Choisir le répertoire de travail avec l'exemple **smoke_detector**
   - La fenetre ESP-DF setup Setup apparrait
-  - Choisir mode d'install **advanced**, **branch master (dev branch)**, changer répertoire d'install **/home/dan/.local/esp**
+  - Choisir mode d'install **advanced**, **branch master (dev branch)**, changer répertoire d'install **/home/<user>/.local/esp**
   - Install (ignorer erreur concernant les tools)
   - Download tools
   - Message "All settings have been configured"
@@ -224,7 +224,7 @@ I (408837) DEMO: Hum: 77.0 Tmp: 22.4
 
 * **eraser la flash**
 
-Si le code change complétement, il faudra effacer la flash du module
+Si le code change complétement, il faudra effacer la flash du module et supprimer le device de **Zigbee2MQTT**
 
 Dans vcode avec le dossier projet ouvert, aller dans le terminal de vscode
 
@@ -252,7 +252,7 @@ Done
 
 Il est possible d'exécuter la commande **idf.py** en dehors de **vscode**
 
-`/home/dan/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/dan/.local/esp/esp-idf/tools/idf.py`
+`/home/<user>/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/<user>/.local/esp/esp-idf/tools/idf.py`
 
 
 #### Zigbee2MQTT
@@ -262,7 +262,7 @@ Testé sur Zigbee2MQTT installé sur Raspberry-Pi 3B avec *coordinator* **PiZiga
 Avec le code <https://github.com/xmow49/ESP32H2-Zigbee-Demo> flashé sur l'**ESP32-H2**, le device apparait dans **Zigbee2MQTT**
 comme device **0x4831b7fffec06c3b** "Non pris en charge"
 
-Ce programme *Demo* expose la **température** et l'**humidité** d'un *DHT22*, l'état d'un input de GPIO avec **poussoir** et une sortie relié à une **LED** (voir photo montage sur *breadboard*). 
+Ce programme *Demo* expose la **température** et l'**humidité** d'un *DHT22*, l'état d'un input de GPIO avec **poussoir** et une sortie relié à une **LED**. 
 Les paramètres **ManufacturerName**, **ModelIdentifier**, **DateCode** ont été changés dans le code et des log ont été rajoutées pour suivre le fonctionnement (*I (xxxxx) DEMO: Domos: ...*)
 
 ![](./images/Zigbee2MQTT_1_ESP32-H2_1.png)
