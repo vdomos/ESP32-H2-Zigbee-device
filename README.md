@@ -255,7 +255,7 @@ Il est possible d'exécuter la commande **idf.py** en dehors de **vscode**
 `/home/<user>/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/<user>/.local/esp/esp-idf/tools/idf.py`
 
 
-#### Zigbee2MQTT
+### Zigbee2MQTT
 
 Testé sur Zigbee2MQTT installé sur Raspberry-Pi 3B avec *coordinator* **PiZigate** avec le code <https://github.com/xmow49/ESP32H2-Zigbee-Demo> flashé sur l'**ESP32-H2**, 
 
@@ -265,6 +265,8 @@ Les paramètres **ManufacturerName**, **ModelIdentifier**, **DateCode** ont ét�
 Aprés l'appairage qui se fait au *boot* du module, le device apparait dans **Zigbee2MQTT** comme device **0x4831b7fffec06c3b** "Non pris en charge"
 
 ![](./images/Zigbee2MQTT_1_ESP32-H2_1.png)
+
+![](./images/Zigbee2MQTT_1_ESP32-H2_4.png)
 
 Il est possible d'interroger le *device* dans **Dev Console**  de **Zigbee2MQTT** et d'obtenir les **clusters** exposés:
 
